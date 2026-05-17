@@ -1,0 +1,15 @@
+# 1. Initialize Git and add all your code files
+git init
+git add .
+
+# 2. Commit the changes
+git commit -m "Upload project from mobile VS Code"
+
+# 3. Ensure the main branch is selected
+git branch -M main
+
+# 4. Link your specific GitHub repository
+git remote add origin https://github.com
+
+# 5. Push the code to GitHub
+git push -u origin main
